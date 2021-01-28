@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './Button'
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -62,11 +63,11 @@ function Footer() {
                 <div class='social-media-wrap'>
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            TRVL
-              <i class='fab fa-typo3' />
+                            AIDAN
+              <i class='fas fa-train' />
                         </Link>
                     </div>
-                    <small class='website-rights'>TRVL © 2020</small>
+                    <small class='website-rights'>Test Project by Aidan Dyde 2020</small>
                     <div class='social-icons'>
                         <Link
                             class='social-icon-link facebook'

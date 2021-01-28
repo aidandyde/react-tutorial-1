@@ -5,13 +5,13 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out these projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='../images/img-9.jpg'
-              text='Why is the size of each item based on the amount of text!'
+              text='Project 1- Example Project'
               label='TpF2'
               path='/services'
             />
